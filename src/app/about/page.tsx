@@ -30,6 +30,16 @@ export default function About() {
                 At Turas BV, the focus is on structuring businesses that are not just scalable but built to last—whether through 
                 digital innovation, strategic property investment, or operational efficiency.
               </p>
+
+              <p className="mb-4">
+                At TURAS, we&apos;re not just another consulting firm. We&apos;re your partners in navigating the complex world of sustainable business practices. Our name, &quot;TURAS,&quot; comes from the Irish word for &quot;journey,&quot; reflecting our commitment to guiding businesses through their sustainability transformation.
+              </p>
+              <p className="mb-4">
+                Our &quot;boots on the ground&quot; approach sets us apart. We don&apos;t just provide theoretical frameworks - we work alongside you to implement practical, effective solutions that drive real change.
+              </p>
+              <p className="mb-4">
+                Our &quot;boots on the ground&quot; approach has proven particularly valuable in our work with companies&apos; supply chains across Asia.
+              </p>
             </div>
           </div>
         </div>
