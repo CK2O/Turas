@@ -28,21 +28,17 @@ A modern, responsive corporate website built with Next.js 13+, React, and Tailwi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/turas-website.git
+git clone https://github.com/CK2O/Turas.git
 ```
 
 2. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
 ```
 
 3. Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -50,7 +46,7 @@ yarn dev
 ## Project Structure
 
 ```
-turas-website/
+turas/
 ├── public/
 │   ├── images/
 │   └── video/
@@ -80,14 +76,9 @@ turas-website/
 - Real Estate Investment section with Instagram integration
 
 ### Contact Page
-- Modern contact form
+- Modern contact form with email integration
 - Business information
 - Social media links
-- Office hours
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
