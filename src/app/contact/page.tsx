@@ -40,7 +40,7 @@ export default function Contact() {
       setTimeout(() => {
         setStatus('idle');
       }, 5000);
-    } catch (error) {
+    } catch (err) {
       setStatus('error');
       setErrorMessage('Failed to send message. Please try again.');
     }

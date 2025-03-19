@@ -1,5 +1,5 @@
-import Navigation from '../components/Navigation';
 import Image from 'next/image';
+import Navigation from '../components/Navigation';
 import Script from 'next/script';
 import Link from 'next/link';
 
