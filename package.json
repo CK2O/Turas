@@ -24,7 +24,6 @@
     "typescript": "5.3.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/react-google-recaptcha": "^2.1.9"
+    "@tailwindcss/postcss": "^4"
   }
 }
