@@ -14,7 +14,8 @@ async function verifyRecaptcha(token: string) {
     });
 
     const data = await response.json();
-    return data.success;
+    // For v3, we check the score (0.0 to 1.0) and consider scores above 0.5 as valid
+    return data.success && data.score > 0.5;
   } catch (error) {
     console.error('Error verifying reCAPTCHA:', error);
     return false;
