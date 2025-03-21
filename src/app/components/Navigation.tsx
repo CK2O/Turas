@@ -27,9 +27,6 @@ export default function Navigation() {
             <Link href="/about" className="text-white hover:text-gray-300">
               About
             </Link>
-            <Link href="/contact" className="text-white hover:text-gray-300">
-              Contact
-            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -65,9 +62,6 @@ export default function Navigation() {
             </Link>
             <Link href="/about" className="block px-3 py-2 text-white hover:text-gray-300">
               About
-            </Link>
-            <Link href="/contact" className="block px-3 py-2 text-white hover:text-gray-300">
-              Contact
             </Link>
           </div>
         </div>

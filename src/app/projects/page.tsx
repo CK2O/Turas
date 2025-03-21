@@ -14,11 +14,19 @@ export default function Projects() {
 
           {/* Business Analytics Section */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 border-b border-white pb-2">Business Analytics</h2>
+            <div className="flex justify-between items-center mb-8">
+              <h2 className="text-3xl font-bold border-b border-white pb-2">Business Analytics</h2>
+              <Link 
+                href="/business-analytics" 
+                className="text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                View Projects →
+              </Link>
+            </div>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
                 <a 
-                  href="https://www.amfori.org/en/solutions/tools/amfori-sustainability-platform"
+                  href="https://www.amfori.org/en/solutions/governance/amfori-sustainapass"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block relative w-full h-64 mb-6 bg-white/5 rounded-lg overflow-hidden transition-transform hover:scale-105"
@@ -31,8 +39,9 @@ export default function Projects() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </a>
-                <h3 className="text-2xl font-bold mb-4">amfori Sustainapass</h3>
+                <h3 className="text-2xl font-bold mb-4">amfori SustainaPass</h3>
                 <p className="text-gray-300 mb-4">Digital platform facilitating sustainable trade best practices.</p>
+                <p className="text-gray-400 mb-4 italic">Supported product team from concept to launch. Coordinated with suppliers and developers.</p>
               </div>
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
                 <a 
@@ -51,15 +60,97 @@ export default function Projects() {
                 </a>
                 <h3 className="text-2xl font-bold mb-4">amfori ESG Risk Compass</h3>
                 <p className="text-gray-300 mb-4">ESG risk identification for global supply chains.</p>
+                <p className="text-gray-400 mb-4 italic">Supported product team from concept to launch. Coordinated with suppliers and developers.</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Indie Products and Sites Section */}
+          <section className="mb-16">
+            <div className="flex justify-between items-center mb-8">
+              <h2 className="text-3xl font-bold border-b border-white pb-2">Indie Sites and Products</h2>
+              <Link 
+                href="/pipeline" 
+                className="text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                View Project Pipeline →
+              </Link>
+            </div>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
+                <a 
+                  href="https://northfornomad.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block relative w-full h-64 mb-6 bg-white/5 rounded-lg overflow-hidden transition-transform hover:scale-105"
+                >
+                  <Image
+                    src="/images/northfornomad-preview.png"
+                    alt="North For Nomad"
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </a>
+                <h3 className="text-2xl font-bold mb-4">North For Nomad</h3>
+                <p className="text-gray-300 mb-4">Digital prints marketplace showcasing unique travel photography and art prints.</p>
+                <div className="mt-auto flex justify-between items-center">
+                  <p className="text-gray-400 italic">Developed the digital marketplace.</p>
+                  <a 
+                    href="https://northfornomad.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 transition-colors"
+                  >
+                    northfornomad.com →
+                  </a>
+                </div>
+              </div>
+              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
+                <a 
+                  href="https://turas.be"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block relative w-full h-64 mb-6 bg-white/5 rounded-lg overflow-hidden transition-transform hover:scale-105"
+                >
+                  <Image
+                    src="/images/turas-preview.png"
+                    alt="TURAS BV"
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </a>
+                <h3 className="text-2xl font-bold mb-4">TURAS BV</h3>
+                <p className="text-gray-300 mb-4">Corporate website showcasing our services and project portfolio.</p>
+                <div className="mt-auto flex justify-between items-center">
+                  <p className="text-gray-400 italic">Developed the corporate website.</p>
+                  <a 
+                    href="https://turas.be"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 transition-colors"
+                  >
+                    turas.be →
+                  </a>
+                </div>
               </div>
             </div>
           </section>
 
           {/* Product Management Section */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 border-b border-white pb-2">Product Management</h2>
+            <div className="flex justify-between items-center mb-8">
+              <h2 className="text-3xl font-bold border-b border-white pb-2">Product Management</h2>
+              <Link 
+                href="/product-management" 
+                className="text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                View Projects →
+              </Link>
+            </div>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
+              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
                 <a 
                   href="https://www.ibericavacuum.com/blogs/news/edwards-expands-its-range-of-next-turbomolecular-pumps"
                   target="_blank"
@@ -75,9 +166,10 @@ export default function Projects() {
                   />
                 </a>
                 <h3 className="text-2xl font-bold mb-4">High-Vacuum Systems</h3>
-                <p className="text-gray-300 mb-4">Launched high precision vacuum solutions for scientific and R&D applications.</p>
+                <p className="text-gray-300 mb-4">Launch of multi-year project of high precision vacuum solutions for Scientific and R&D applications.</p>
+                <p className="text-gray-400 mt-auto italic">Product Manager leading development and market introduction.</p>
               </div>
-              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
+              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
                 <a 
                   href="https://www.atlascopco.com/en-ee/construction-equipment/news/e-air-wins-hria-award"
                   target="_blank"
@@ -93,9 +185,10 @@ export default function Projects() {
                   />
                 </a>
                 <h3 className="text-2xl font-bold mb-4">E-Air VSD - Award winning product launch</h3>
-                <p className="text-gray-300 mb-4">Launched award winning product for sustainable construction and heavy-duty applications.</p>
+                <p className="text-gray-300 mb-4">Launched award winning products for sustainable construction and heavy-duty applications.</p>
+                <p className="text-gray-400 mt-auto italic">Product Manager responsible for product development and launch strategy.</p>
               </div>
-              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
+              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
                 <a 
                   href="https://www.atlascopco.com/en-uk/construction-equipment/news/small-air-compressors-stage-v-compliant"
                   target="_blank"
@@ -111,16 +204,27 @@ export default function Projects() {
                   />
                 </a>
                 <h3 className="text-2xl font-bold mb-4">Product Management</h3>
-                <p className="text-gray-300 mb-4">Strategic product development and management at Atlas Copco.</p>
+                <p className="text-gray-300 mb-4">Product development and management of a product portfolio at Atlas Copco.</p>
+                <p className="text-gray-400 mt-auto italic">Strategic Product Manager for the portable compressor range.</p>
               </div>
             </div>
           </section>
 
           {/* Real Estate Investment Section */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 border-b border-white pb-2">Real Estate Investment</h2>
+            <div className="flex justify-between items-center mb-8">
+              <h2 className="text-3xl font-bold border-b border-white pb-2">Real Estate Investment</h2>
+              <Link 
+                href="https://www.instagram.com/turasbv/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                View Projects →
+              </Link>
+            </div>
             <div className="flex flex-wrap gap-8">
-              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex-1">
+              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex-1 flex flex-col">
                 <blockquote 
                   className="instagram-media" 
                   data-instgrm-permalink="https://www.instagram.com/p/CrvDNX9N3fg/"
@@ -129,9 +233,10 @@ export default function Projects() {
                   <a href="https://www.instagram.com/p/CrvDNX9N3fg/">View on Instagram</a>
                 </blockquote>
                 <h3 className="text-2xl font-bold mt-6 mb-4">Real Estate Development</h3>
-                <p className="text-gray-300">Strategic property development and investment projects.</p>
+                <p className="text-gray-300 mb-4">Property development and management.</p>
+                <p className="text-gray-400 mt-auto italic">Owner, helping hand in painting and renovations.</p>
               </div>
-              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex-1">
+              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex-1 flex flex-col">
                 <blockquote 
                   className="instagram-media" 
                   data-instgrm-permalink="https://www.instagram.com/p/COWF26OBi6r/"
@@ -140,9 +245,10 @@ export default function Projects() {
                   <a href="https://www.instagram.com/p/COWF26OBi6r/">View on Instagram</a>
                 </blockquote>
                 <h3 className="text-2xl font-bold mt-6 mb-4">Renovation Projects</h3>
-                <p className="text-gray-300">High-quality renovations and property improvements.</p>
+                <p className="text-gray-300 mb-4">High-quality renovations and property improvements.</p>
+                <p className="text-gray-400 mt-auto italic">Owner, helping hand in painting and renovations.</p>
               </div>
-              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex-1">
+              <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex-1 flex flex-col">
                 <blockquote 
                   className="instagram-media" 
                   data-instgrm-permalink="https://www.instagram.com/p/B6KjK_znwKN/"
@@ -151,7 +257,8 @@ export default function Projects() {
                   <a href="https://www.instagram.com/p/B6KjK_znwKN/">View on Instagram</a>
                 </blockquote>
                 <h3 className="text-2xl font-bold mt-6 mb-4">Rental Properties</h3>
-                <p className="text-gray-300">Premium rental properties in prime locations.</p>
+                <p className="text-gray-300 mb-4">Long term rental properties.</p>
+                <p className="text-gray-400 mt-auto italic"></p>
               </div>
             </div>
           </section>

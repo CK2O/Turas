@@ -42,7 +42,7 @@ export default function Home() {
                 See Pipeline
               </a>
               <a
-                href="/contact"
+                href="/about"
                 className="px-8 py-3 bg-black text-white font-bold rounded-lg hover:bg-black/80 transition-colors border-2 border-white"
               >
                 Contact Us
