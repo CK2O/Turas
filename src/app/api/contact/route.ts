@@ -45,8 +45,8 @@ export async function POST(request: Request) {
 
     // Send email using Resend
     await resend.emails.send({
-      from: 'TURAS BV <contact@turas.be>',
-      to: [process.env.CONTACT_EMAIL || 'cormac.kerins@turas.be'],
+      from: `TURAS BV <${process.env.RESEND_FROM_EMAIL}>`,
+      to: [process.env.CONTACT_EMAIL],
       subject: `New Contact Form Submission from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
       html: `

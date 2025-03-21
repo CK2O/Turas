@@ -37,8 +37,7 @@ function ContactForm() {
         },
         body: JSON.stringify({
           ...formData,
-          captchaToken,
-          recipientEmail: 'cormac.kerins@turas.be'
+          captchaToken
         }),
       });
 
@@ -198,7 +197,7 @@ export default function About() {
             <div className="bg-gray-900 p-6 rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
               <GoogleReCaptchaProvider
-                reCaptchaKey="6LdfrfsqAAAAAACVg-h4kRsQbkLen40vZkiN5SFh"
+                reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
                 scriptProps={{
                   async: false,
                   defer: false,
