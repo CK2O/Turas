@@ -141,7 +141,7 @@ export default function ProjectTimeline() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">2025 Product Pipeline</h2>
-          <p className="text-xl text-gray-400 mb-8">12 Products, 4 Quarters, Infinite Possibilities</p>
+          <p className="text-xl text-gray-400 mb-8">12 Products, 12 Months</p>
           
           {/* Overall Progress */}
           <div className="max-w-2xl mx-auto">
