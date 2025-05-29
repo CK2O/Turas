@@ -38,8 +38,8 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-                From concept to launch in record time. We build innovative SaaS platforms, 
-                marketplaces, and digital solutions that drive real business growth.
+                We help people build their dream products
+                and make ideas come to life.
               </p>
             </div>
             
