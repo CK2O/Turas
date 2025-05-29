@@ -43,10 +43,22 @@ export async function POST(request: Request) {
       );
     }
 
+    // Validate environment variables
+    const contactEmail = process.env.CONTACT_EMAIL;
+    const fromEmail = process.env.RESEND_FROM_EMAIL;
+
+    if (!contactEmail || !fromEmail) {
+      console.error('Missing environment variables: CONTACT_EMAIL or RESEND_FROM_EMAIL');
+      return NextResponse.json(
+        { error: 'Server configuration error. Please try again later.' },
+        { status: 500 }
+      );
+    }
+
     // Send email using Resend
     await resend.emails.send({
-      from: `TURAS BV <${process.env.RESEND_FROM_EMAIL}>`,
-      to: [process.env.CONTACT_EMAIL],
+      from: `TURAS BV <${fromEmail}>`,
+      to: [contactEmail],
       subject: `New Contact Form Submission from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
       html: `
