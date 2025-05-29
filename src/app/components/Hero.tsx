@@ -9,7 +9,7 @@ export default function Hero() {
           TURAS BV
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-          Building the future through strategic investments and innovative projects
+          Building dream products 
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a

@@ -194,37 +194,37 @@ export default function ProjectTimeline() {
                           : 'border-gray-700 hover:border-gray-600'
                       }`}>
                         {/* Image Section - Much Larger */}
-                        <div className="relative h-48 bg-gray-700">
+                        <div className="relative h-80 bg-gray-700">
                           <Image
                             src={project.previewImage || '/images/coming-soon.png'}
                             alt={project.title}
                             fill
-                            className="object-cover transition-transform duration-300 group-hover:scale-105"
+                            className="object-contain transition-transform duration-300 group-hover:scale-105"
                           />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                           
                           {/* Status Badge */}
-                          <div className="absolute top-3 right-3">
-                            <div className={`px-2 py-1 rounded-lg text-xs border backdrop-blur-sm ${getStatusColor(project.status)}`}>
+                          <div className="absolute top-4 right-4">
+                            <div className={`px-3 py-1.5 rounded-lg text-sm border backdrop-blur-sm ${getStatusColor(project.status)}`}>
                               {getStatusIcon(project.status)}
                             </div>
                           </div>
 
                           {/* Month Badge */}
-                          <div className="absolute top-3 left-3">
-                            <div className="bg-black/50 backdrop-blur-sm text-white px-2 py-1 rounded-lg text-xs font-medium">
+                          <div className="absolute top-4 left-4">
+                            <div className="bg-black/60 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-sm font-medium">
                               {project.month}
                             </div>
                           </div>
 
                           {/* Overlay for Live Projects */}
                           {project.url && project.status === 'completed' && (
-                            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                               <a 
                                 href={`https://${project.url}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+                                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-base font-medium transition-colors transform hover:scale-105"
                                 onClick={(e) => e.stopPropagation()}
                               >
                                 Visit Live Site →
@@ -233,12 +233,12 @@ export default function ProjectTimeline() {
                           )}
                         </div>
 
-                        {/* Compact Text Section */}
-                        <div className="p-4">
-                          <h4 className="font-bold text-lg text-white mb-1 group-hover:text-blue-400 transition-colors">
+                        {/* Minimal Text Section */}
+                        <div className="p-3">
+                          <h4 className="font-bold text-base text-white mb-0.5 group-hover:text-blue-400 transition-colors">
                             {project.title}
                           </h4>
-                          <p className="text-sm text-gray-400">{project.description}</p>
+                          <p className="text-xs text-gray-500">{project.description}</p>
                         </div>
                       </div>
                     </div>

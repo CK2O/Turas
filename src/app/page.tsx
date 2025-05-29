@@ -32,9 +32,9 @@ export default function Home() {
           <div className="text-center text-white px-4 max-w-6xl mx-auto">
             <div className="animate-fade-in-up">
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent leading-tight">
-                Building Tomorrow's
+                Building Digital
                 <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
-                  Digital Products
+                  Products
                 </span>
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
@@ -83,15 +83,15 @@ export default function Home() {
             <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-in-up delay-500">
               <div className="text-center">
                 <div className="text-4xl font-bold text-blue-400 mb-2">4+</div>
-                <div className="text-gray-300">Products Launched</div>
+                <div className="text-gray-300">Products Shipped</div>
               </div>
               <div className="text-center">
                 <div className="text-4xl font-bold text-purple-400 mb-2">12</div>
-                <div className="text-gray-300">Planned for 2025</div>
+                <div className="text-gray-300">Planned Launches for 2025</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-green-400 mb-2">∞</div>
-                <div className="text-gray-300">Possibilities</div>
+                <div className="text-4xl font-bold text-red-400 mb-2">3</div>
+                <div className="text-gray-300">Free Projects Remaining</div>
               </div>
             </div>
           </div>
