@@ -178,7 +178,7 @@ export default function About() {
                       LinkedIn
                     </a>
                     <a 
-                      href="https://www.instagram.com/turas.bv" 
+                      href="https://www.instagram.com/turasbv" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="text-gray-400 hover:text-white transition-colors flex items-center"

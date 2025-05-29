@@ -16,12 +16,14 @@ export default function Projects() {
           <section className="mb-16">
             <div className="flex justify-between items-center mb-8">
               <h2 className="text-3xl font-bold border-b border-white pb-2">Business Analytics</h2>
-              <Link 
-                href="/business-analytics" 
+              <a 
+                href="https://www.linkedin.com/in/cormac-kerins/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition-colors"
               >
-                View Projects →
-              </Link>
+                View Profile →
+              </a>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
@@ -79,60 +81,125 @@ export default function Projects() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
                 <a 
-                  href="https://northfornomad.com"
+                  href="https://cam-a185dob25-cormacs-projects-4ad5b4bc.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block relative w-full h-64 mb-6 bg-white/5 rounded-lg overflow-hidden transition-transform hover:scale-105"
                 >
                   <Image
-                    src="/images/northfornomad-preview.png"
-                    alt="North For Nomad"
+                    src="/images/tollaytrade-preview.png"
+                    alt="TollayTrade"
                     fill
                     className="object-contain"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </a>
-                <h3 className="text-2xl font-bold mb-4">North For Nomad</h3>
-                <p className="text-gray-300 mb-4">Digital prints marketplace showcasing unique travel photography and art prints.</p>
+                <h3 className="text-2xl font-bold mb-4">TollayTrade</h3>
+                <p className="text-gray-300 mb-4">Premium Cambodian products with complete transparency. Trading with balance.</p>
                 <div className="mt-auto flex justify-between items-center">
-                  <p className="text-gray-400 italic">Developed the digital marketplace.</p>
+                  <p className="text-gray-400 italic">Developed the marketplace platform.</p>
                   <a 
-                    href="https://northfornomad.com"
+                    href="https://cam-a185dob25-cormacs-projects-4ad5b4bc.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 transition-colors"
                   >
-                    northfornomad.com →
+                    Visit Site →
                   </a>
                 </div>
               </div>
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
                 <a 
-                  href="https://turas.be"
+                  href="https://dibs-ntlmos7pu-cormacs-projects-4ad5b4bc.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block relative w-full h-64 mb-6 bg-white/5 rounded-lg overflow-hidden transition-transform hover:scale-105"
                 >
                   <Image
-                    src="/images/turas-preview.png"
-                    alt="TURAS BV"
+                    src="/images/dibs-preview.png"
+                    alt="Dibs"
                     fill
                     className="object-contain"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </a>
-                <h3 className="text-2xl font-bold mb-4">TURAS BV</h3>
-                <p className="text-gray-300 mb-4">Corporate website showcasing our services and project portfolio.</p>
+                <h3 className="text-2xl font-bold mb-4">Dibs</h3>
+                <p className="text-gray-300 mb-4">Making connections easy, one class at a time. Connect with students and build your community.</p>
                 <div className="mt-auto flex justify-between items-center">
-                  <p className="text-gray-400 italic">Developed the corporate website.</p>
+                  <p className="text-gray-400 italic">Developed the connection platform.</p>
                   <a 
-                    href="https://turas.be"
+                    href="https://dibs-ntlmos7pu-cormacs-projects-4ad5b4bc.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 transition-colors"
                   >
-                    turas.be →
+                    Visit Site →
                   </a>
+                </div>
+              </div>
+            </div>
+            
+            {/* Legacy Projects */}
+            <div className="mt-12">
+              <h3 className="text-xl font-semibold mb-6 text-gray-400">Previous Projects</h3>
+              <div className="grid md:grid-cols-2 gap-8 opacity-75">
+                <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
+                  <a 
+                    href="https://northfornomad.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block relative w-full h-64 mb-6 bg-white/5 rounded-lg overflow-hidden transition-transform hover:scale-105"
+                  >
+                    <Image
+                      src="/images/northfornomad-preview.png"
+                      alt="North For Nomad"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </a>
+                  <h3 className="text-2xl font-bold mb-4">North For Nomad</h3>
+                  <p className="text-gray-300 mb-4">Digital prints marketplace showcasing unique travel photography and art prints.</p>
+                  <div className="mt-auto flex justify-between items-center">
+                    <p className="text-gray-400 italic">Developed the digital marketplace.</p>
+                    <a 
+                      href="https://northfornomad.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:text-blue-300 transition-colors"
+                    >
+                      northfornomad.com →
+                    </a>
+                  </div>
+                </div>
+                <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
+                  <a 
+                    href="https://turas.be"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block relative w-full h-64 mb-6 bg-white/5 rounded-lg overflow-hidden transition-transform hover:scale-105"
+                  >
+                    <Image
+                      src="/images/turas-preview.png"
+                      alt="TURAS BV"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </a>
+                  <h3 className="text-2xl font-bold mb-4">TURAS BV</h3>
+                  <p className="text-gray-300 mb-4">Corporate website showcasing our services and project portfolio.</p>
+                  <div className="mt-auto flex justify-between items-center">
+                    <p className="text-gray-400 italic">Developed the corporate website.</p>
+                    <a 
+                      href="https://turas.be"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:text-blue-300 transition-colors"
+                    >
+                      turas.be →
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -142,12 +209,14 @@ export default function Projects() {
           <section className="mb-16">
             <div className="flex justify-between items-center mb-8">
               <h2 className="text-3xl font-bold border-b border-white pb-2">Product Management</h2>
-              <Link 
-                href="/product-management" 
+              <a 
+                href="https://www.linkedin.com/in/cormac-kerins/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition-colors"
               >
-                View Projects →
-              </Link>
+                View Profile →
+              </a>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">

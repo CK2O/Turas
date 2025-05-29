@@ -14,20 +14,20 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'North For Nomad',
-    description: 'Digital prints marketplace',
+    title: 'TollayTrade',
+    description: 'Premium Cambodian products with complete transparency',
     month: 'Jan 2025',
     status: 'completed',
-    url: 'northfornomad.com',
-    previewImage: '/images/northfornomad-preview.png'
+    url: 'cam-a185dob25-cormacs-projects-4ad5b4bc.vercel.app',
+    previewImage: '/images/tollaytrade-preview.png'
   },
   {
-    title: 'TURAS BV',
-    description: 'Corporate website',
+    title: 'Dibs',
+    description: 'Making connections easy, one class at a time',
     month: 'Feb 2025',
     status: 'completed',
-    url: 'turas.be',
-    previewImage: '/images/turas-preview.png'
+    url: 'dibs-ntlmos7pu-cormacs-projects-4ad5b4bc.vercel.app',
+    previewImage: '/images/dibs-preview.png'
   },
   {
     title: 'Klaarify',
@@ -111,7 +111,7 @@ export default function ProjectTimeline() {
 
   return (
     <div className="w-full overflow-x-auto bg-gray-900 text-white py-8 scrollbar-hide">
-      <div className="min-w-[4800px] px-8">
+      <div className="min-w-[3200px] px-8">
         <div className="relative">
           {/* Timeline structure */}
           <div className="flex items-center justify-between w-full mb-8">
@@ -143,11 +143,11 @@ export default function ProjectTimeline() {
           </div>
           
           {/* Projects */}
-          <div className="relative flex space-x-16">
+          <div className="relative flex space-x-12">
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="relative w-[96rem]"
+                className="relative w-64"
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
               >
@@ -168,7 +168,7 @@ export default function ProjectTimeline() {
                       {project.status.charAt(0).toUpperCase() + project.status.slice(1)}
                     </div>
                   </div>
-                  <div className="relative w-full h-80">
+                  <div className="relative w-full h-48">
                     <Image
                       src={project.previewImage || '/images/coming-soon.png'}
                       alt={project.title}
