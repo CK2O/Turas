@@ -28,10 +28,10 @@ export default function Home() {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 flex items-center justify-center h-full">
+        <div className="relative z-10 flex items-center justify-center h-full pt-16">
           <div className="text-center text-white px-4 max-w-6xl mx-auto">
             <div className="animate-fade-in-up">
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent leading-tight">
                 Building Digital
                 <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
                   Products
@@ -71,7 +71,7 @@ export default function Home() {
                 className="group px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl hover:bg-white/20 transition-all duration-300 transform hover:scale-105 border border-white/20 hover:border-white/40"
               >
                 <span className="flex items-center justify-center gap-2">
-                  Start Your Project
+                  Book a Call
                   <svg className="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                   </svg>
@@ -79,11 +79,18 @@ export default function Home() {
               </a>
             </div>
 
+            {/* Company Info */}
+            <div className="mt-12 animate-fade-in-up delay-400">
+              <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+                Established in 2024 with the mission to empower people to build products and businesses that make a difference.
+              </p>
+            </div>
+
             {/* Stats Section */}
             <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-in-up delay-500">
               <div className="text-center">
-                <div className="text-4xl font-bold text-blue-400 mb-2">4+</div>
-                <div className="text-gray-300">Products Shipped</div>
+                <div className="text-4xl font-bold text-blue-400 mb-2">15+</div>
+                <div className="text-gray-300">Products Delivered</div>
               </div>
               <div className="text-center">
                 <div className="text-4xl font-bold text-purple-400 mb-2">12</div>

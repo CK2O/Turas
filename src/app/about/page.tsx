@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Navigation from '../components/Navigation';
 import { GoogleReCaptchaProvider, useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+import Image from 'next/image';
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -152,6 +153,82 @@ export default function About() {
             <h1 className="text-4xl font-bold mb-4">About TURAS</h1>
             <p className="text-xl text-gray-400">We build products that help you grow your business.</p>
           </div>
+
+          {/* TURAS Company Section */}
+          <section className="mb-12">
+            <div className="bg-gray-900 rounded-lg p-8 text-center">
+              <h2 className="text-3xl font-bold mb-6">Our Story</h2>
+              <div className="max-w-4xl mx-auto space-y-6 text-gray-300">
+                <p className="text-lg">
+                  <span className="text-white font-semibold">TURAS</span> is the Irish word for <span className="text-blue-400 font-semibold">"journey"</span> — 
+                  and thats how we approach every project.
+                </p>
+                <p className="text-lg">
+                  Founded in <span className="text-white font-semibold">2024</span>, our mission is 
+                  to help people build their dream products and companies. Every great business starts as an idea, 
+                  and we're here to go through that journey with you from concept to reality.
+                </p>
+                <p className="text-lg">
+                  Whether you're an entrepreneur with a vision, a business looking to innovate, 
+                  or someone ready to bring their idea to life — we're here to make that journey happen.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Personal About Section */}
+          <section className="mb-12">
+            <div className="bg-gray-900 rounded-lg p-8">
+              <div className="flex flex-col md:flex-row gap-8 items-center">
+                <div className="flex-shrink-0">
+                  <Image
+                    src="/images/about me Cormac.JPG"
+                    alt="Cormac Kerins"
+                    width={200}
+                    height={200}
+                    className="rounded-lg object-cover"
+                  />
+                </div>
+                <div className="flex-1 text-center md:text-left">
+                  <h2 className="text-3xl font-bold mb-4">Meet Cormac</h2>
+                  <p className="text-xl text-gray-300 mb-6">
+                    Founder at TURAS BV
+                  </p>
+                  <div className="space-y-4 text-gray-300">
+                    <p>
+                      With extensive experience in product management across multiple industries, Cormac has led 
+                      development of €100M+ product portfolios and delivered successful product launches at scale.
+                    </p>
+                    <p>
+                      From launching award-winning industrial equipment at Atlas Copco to building digital platforms 
+                      platforms at amfori, he bridges strategy and execution to every project.
+                    </p>
+                    <p>
+                      As a developer and entrepreneur, Cormac has built and launched multiple digital 
+                      products including wellness platforms, e-commerce marketplaces, and business analytics tools.
+                    </p>
+                    <p>
+                      Beyond technology, he's an active real estate investor, managing a diverse portfolio 
+                      from acquisition through renovation to successful exit.
+                    </p>
+                  </div>
+                  <div className="mt-6">
+                    <a 
+                      href="https://www.linkedin.com/in/cormac-kerins/" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors"
+                    >
+                      <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                      </svg>
+                      Connect on LinkedIn
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Company Information */}

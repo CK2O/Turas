@@ -15,7 +15,7 @@ export default function Projects() {
           {/* Business Analytics Section */}
           <section className="mb-16">
             <div className="flex justify-between items-center mb-8">
-              <h2 className="text-3xl font-bold border-b border-white pb-2">Business Analytics</h2>
+              <h2 className="text-3xl font-bold border-b border-white pb-2">Business Analytics - Consulting</h2>
               <a 
                 href="https://www.linkedin.com/in/cormac-kerins/" 
                 target="_blank"
@@ -41,9 +41,9 @@ export default function Projects() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </a>
-                <h3 className="text-2xl font-bold mb-4">amfori SustainaPass</h3>
+                <h3 className="text-2xl font-bold mb-4">Launch of amfori SustainaPass</h3>
                 <p className="text-gray-300 mb-4">Digital platform facilitating sustainable trade best practices.</p>
-                <p className="text-gray-400 mb-4 italic">Supported product team from concept to launch. Coordinated with suppliers and developers.</p>
+                <p className="text-gray-400 mb-4 italic">Consulted on a new platform development from concept to succesful launch.</p>
               </div>
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
                 <a 
@@ -60,9 +60,9 @@ export default function Projects() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </a>
-                <h3 className="text-2xl font-bold mb-4">amfori ESG Risk Compass</h3>
+                <h3 className="text-2xl font-bold mb-4">Launch of amfori ESG Risk Compass</h3>
                 <p className="text-gray-300 mb-4">ESG risk identification for global supply chains.</p>
-                <p className="text-gray-400 mb-4 italic">Supported product team from concept to launch. Coordinated with suppliers and developers.</p>
+                <p className="text-gray-400 mb-4 italic">Consulted on Dashboard enhancement including building AI data ingestion pipelines.</p>
               </div>
             </div>
           </section>
@@ -95,9 +95,9 @@ export default function Projects() {
                   />
                 </a>
                 <h3 className="text-2xl font-bold mb-4">Dibs</h3>
-                <p className="text-gray-300 mb-4">Making connections easy, one class at a time. A platform connecting wellness instructors with students, streamlining class bookings and community building.</p>
+                <p className="text-gray-300 mb-4">Making class enrollment easy. A platform connecting wellness instructors with students, streamlining class bookings and community building.</p>
                 <div className="mt-auto flex justify-between items-center">
-                  <p className="text-gray-400 italic">Full-stack development & UI/UX design.</p>
+                  <p className="text-gray-400 italic">Full-stack developer & UI/UX design.</p>
                   <a 
                     href="https://dibs-ntlmos7pu-cormacs-projects-4ad5b4bc.vercel.app/"
                     target="_blank"
@@ -124,9 +124,9 @@ export default function Projects() {
                   />
                 </a>
                 <h3 className="text-2xl font-bold mb-4">North For Nomad</h3>
-                <p className="text-gray-300 mb-4">Premium digital prints marketplace featuring unique travel photography and artistic prints. Built with e-commerce functionality and payment integration.</p>
+                <p className="text-gray-300 mb-4">Premium digital prints marketplace featuring stoic philosophy. Built with e-commerce functionality and payment integration.</p>
                 <div className="mt-auto flex justify-between items-center">
-                  <p className="text-gray-400 italic">E-commerce platform development.</p>
+                  <p className="text-gray-400 italic">Full-stack developer & UI/UX design.</p>
                   <a 
                     href="https://northfornomad.com"
                     target="_blank"
@@ -151,7 +151,7 @@ export default function Projects() {
                     className="block relative w-full h-64 mb-6 bg-white/5 rounded-lg overflow-hidden transition-transform hover:scale-105"
                   >
                     <Image
-                      src="/images/tollaytrade-preview.png"
+                      src="/images/tollay-trade-preview.png"
                       alt="TollayTrade"
                       fill
                       className="object-contain"
@@ -159,9 +159,9 @@ export default function Projects() {
                     />
                   </a>
                   <h3 className="text-2xl font-bold mb-4">TollayTrade</h3>
-                  <p className="text-gray-300 mb-4">Premium Cambodian products with complete transparency. Trading with balance through ethical sourcing and direct farmer connections.</p>
+                  <p className="text-gray-300 mb-4">Premium Cambodian products with complete transparency. Trading with balance through ethical sourcing and direct farmer contributions.</p>
                   <div className="mt-auto flex justify-between items-center">
-                    <p className="text-gray-400 italic">Marketplace platform & transparency system.</p>
+                    <p className="text-gray-400 italic">Full-stack developer & UI/UX design.</p>
                     <a 
                       href="https://cam-a185dob25-cormacs-projects-4ad5b4bc.vercel.app/"
                       target="_blank"
@@ -190,7 +190,7 @@ export default function Projects() {
                   <h3 className="text-2xl font-bold mb-4">TURAS BV</h3>
                   <p className="text-gray-300 mb-4">Corporate website showcasing our services, portfolio, and rapid development capabilities with modern design.</p>
                   <div className="mt-auto flex justify-between items-center">
-                    <p className="text-gray-400 italic">Corporate website & portfolio showcase.</p>
+                    <p className="text-gray-400 italic">Full-stack developer & UI/UX design.</p>
                     <a 
                       href="https://turas.be"
                       target="_blank"
@@ -234,9 +234,9 @@ export default function Projects() {
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                 </a>
-                <h3 className="text-2xl font-bold mb-4">High-Vacuum Systems</h3>
+                <h3 className="text-2xl font-bold mb-4">Succesful Product Launch</h3>
                 <p className="text-gray-300 mb-4">Launch of multi-year project of high precision vacuum solutions for Scientific and R&D applications.</p>
-                <p className="text-gray-400 mt-auto italic">Product Manager leading development and market introduction.</p>
+                <p className="text-gray-400 mt-auto italic">Product Manager that led the succesful market introduction.</p>
               </div>
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
                 <a 
@@ -255,7 +255,7 @@ export default function Projects() {
                 </a>
                 <h3 className="text-2xl font-bold mb-4">E-Air VSD - Award winning product launch</h3>
                 <p className="text-gray-300 mb-4">Launched award winning products for sustainable construction and heavy-duty applications.</p>
-                <p className="text-gray-400 mt-auto italic">Product Manager responsible for product development and launch strategy.</p>
+                <p className="text-gray-400 mt-auto italic">Led product launch and go to market strategy.</p>
               </div>
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex flex-col h-full">
                 <a 
@@ -272,9 +272,10 @@ export default function Projects() {
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                 </a>
-                <h3 className="text-2xl font-bold mb-4">Product Management</h3>
-                <p className="text-gray-300 mb-4">Product development and management of a product portfolio at Atlas Copco.</p>
-                <p className="text-gray-400 mt-auto italic">Strategic Product Manager for the portable compressor range.</p>
+                <h3 className="text-2xl font-bold mb-4">Led €100M+ product portfolios with year-on-year growth</h3>
+                  <p className="text-gray-300 mb-4">Led product direction for the portable compressor line—balancing market needs, engineering tradeoffs, and commercial impact.
+                  </p>
+                <p className="text-gray-400 mt-auto italic">Strategic Product Manager defining the 5 year roadmap.</p>
               </div>
             </div>
           </section>
@@ -301,9 +302,9 @@ export default function Projects() {
                 >
                   <a href="https://www.instagram.com/p/CrvDNX9N3fg/">View on Instagram</a>
                 </blockquote>
-                <h3 className="text-2xl font-bold mt-6 mb-4">Real Estate Development</h3>
-                <p className="text-gray-300 mb-4">Property development and management.</p>
-                <p className="text-gray-400 mt-auto italic">Owner, helping hand in painting and renovations.</p>
+                <h3 className="text-2xl font-bold mt-6 mb-4">Real Estate Investment</h3>
+                <p className="text-gray-300 mb-4">Built a product portfolio from scratch</p>
+                <p className="text-gray-400 mt-auto italic">Hands on owner from acquisition to sale.</p>
               </div>
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex-1 flex flex-col">
                 <blockquote 
@@ -314,8 +315,8 @@ export default function Projects() {
                   <a href="https://www.instagram.com/p/COWF26OBi6r/">View on Instagram</a>
                 </blockquote>
                 <h3 className="text-2xl font-bold mt-6 mb-4">Renovation Projects</h3>
-                <p className="text-gray-300 mb-4">High-quality renovations and property improvements.</p>
-                <p className="text-gray-400 mt-auto italic">Owner, helping hand in painting and renovations.</p>
+                <p className="text-gray-300 mb-4">Led full-scale renovations on time and in budget</p>
+                <p className="text-gray-400 mt-auto italic">Owner, managed sourcing, planning, and execution.</p>
               </div>
               <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm flex-1 flex flex-col">
                 <blockquote 
@@ -326,7 +327,7 @@ export default function Projects() {
                   <a href="https://www.instagram.com/p/B6KjK_znwKN/">View on Instagram</a>
                 </blockquote>
                 <h3 className="text-2xl font-bold mt-6 mb-4">Rental Properties</h3>
-                <p className="text-gray-300 mb-4">Long term rental properties.</p>
+                <p className="text-gray-300 mb-4">Hands-on with tenants , upkeep, and operations.</p>
                 <p className="text-gray-400 mt-auto italic"></p>
               </div>
             </div>
