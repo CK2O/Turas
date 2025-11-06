@@ -51,7 +51,7 @@ const allProjects: Project[] = [
     month: '',
     status: 'completed',
     url: 'clarifiid.com',
-    previewImage: '/images/coming-soon.png'
+    previewImage: '/images/clarifiid.jpg'
   },
   {
     title: 'Immoptie',
