@@ -179,14 +179,15 @@ export default function About() {
           {/* Personal About Section */}
           <section className="mb-12">
             <div className="bg-gray-900 rounded-lg p-8">
-              <div className="flex flex-col md:flex-row gap-8 items-center">
+              <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
                 <div className="flex-shrink-0">
                   <Image
                     src="/images/about me Cormac.JPG"
                     alt="Cormac Kerins"
-                    width={200}
-                    height={200}
-                    className="rounded-lg object-cover"
+                    width={300}
+                    height={300}
+                    className="rounded-lg object-cover w-64 h-64 md:w-80 md:h-80"
+                    priority
                   />
                 </div>
                 <div className="flex-1 text-center md:text-left">

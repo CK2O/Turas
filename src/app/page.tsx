@@ -87,14 +87,10 @@ export default function Home() {
             </div>
 
             {/* Stats Section */}
-            <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-in-up delay-500">
+            <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 animate-fade-in-up delay-500 max-w-3xl mx-auto">
               <div className="text-center">
                 <div className="text-4xl font-bold text-blue-400 mb-2">15+</div>
                 <div className="text-gray-300">Products Delivered</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-purple-400 mb-2">12</div>
-                <div className="text-gray-300">Planned Launches for 2025</div>
               </div>
               <div className="text-center">
                 <div className="text-4xl font-bold text-red-400 mb-2">3</div>

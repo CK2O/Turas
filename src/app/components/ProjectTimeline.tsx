@@ -46,11 +46,11 @@ const projects: Project[] = [
     previewImage: '/images/dibs-preview.png'
   },
   {
-    title: 'Klaarify',
+    title: 'Clarifiid',
     description: 'AI guided goals',
     month: 'May',
-    status: 'in-progress',
-    url: 'klaarify.com',
+    status: 'completed',
+    url: 'clarifiid.com',
     previewImage: '/images/coming-soon.png'
   },
   {
@@ -110,10 +110,10 @@ const projects: Project[] = [
 
 // Group projects by quarter
 const quarters = [
-  { name: 'Q1 2025', subtitle: 'Foundation Quarter', projects: projects.slice(0, 3) },
-  { name: 'Q2 2025', subtitle: 'Growth Quarter', projects: projects.slice(3, 6) },
-  { name: 'Q3 2025', subtitle: 'Scale Quarter', projects: projects.slice(6, 9) },
-  { name: 'Q4 2025', subtitle: 'Innovation Quarter', projects: projects.slice(9, 12) }
+  { name: 'Q1 2025', subtitle: 'Jan - Mar', projects: projects.slice(0, 3) },
+  { name: 'Q2 2025', subtitle: 'Apr - Jun', projects: projects.slice(3, 6) },
+  { name: 'Q3 2025', subtitle: 'Jul - Sep', projects: projects.slice(6, 9) },
+  { name: 'Q4 2025', subtitle: 'Oct - Dec', projects: projects.slice(9, 12) }
 ];
 
 export default function ProjectTimeline() {
@@ -141,7 +141,7 @@ export default function ProjectTimeline() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">2025 Product Pipeline</h2>
-          <p className="text-xl text-gray-400 mb-8">12 Products, 12 Months</p>
+          <p className="text-xl text-gray-400 mb-8">Building the future, one product at a time</p>
           
           {/* Overall Progress */}
           <div className="max-w-2xl mx-auto">
