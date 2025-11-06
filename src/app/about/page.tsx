@@ -182,7 +182,7 @@ export default function About() {
               <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
                 <div className="flex-shrink-0">
                   <Image
-                    src="/images/about me Cormac.JPG"
+                    src="/images/about me Cormac.jpg"
                     alt="Cormac Kerins"
                     width={300}
                     height={300}
